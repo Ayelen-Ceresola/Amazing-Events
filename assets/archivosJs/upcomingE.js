@@ -1,5 +1,4 @@
-
-let containerCardIndex = document.getElementById (`container-card`)   
+let containerCardUpcoming = document.getElementById (`containerCardUpcoming`)   
 
 function creatCard (events) {
     return `<div class="card d-flex flex-column mb-3 justify-content-center align-items-center m-2" style="width: 18rem;">
@@ -16,7 +15,7 @@ function creatCard (events) {
 
 
 function listaCrad (lista, donde){
-    let template = ``;
+    let template = ``
     for (let elemento of lista) {
         template += creatCard (elemento)
         
@@ -24,5 +23,11 @@ function listaCrad (lista, donde){
     donde.innerHTML = template
 }
 
+function filtro (eventos){
+    return eventos.date > data.currentDate
 
-listaCrad (data.events, containerCardIndex )
+}
+let eventosFiltrados = data.events.filter((filtro))
+
+
+listaCrad (eventosFiltrados, containerCardUpcoming )

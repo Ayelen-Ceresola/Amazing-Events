@@ -8,6 +8,7 @@ function creatCard (events) {
             <p class="card-text text-center"> ${events.description}</p>
             <h6 class="card-text">price: ${events.price}</h6>
             <a href="./assets/pages/Details.html" class="btn btn-primary">See More</a>
+            </div>
     </div>`
     
 }

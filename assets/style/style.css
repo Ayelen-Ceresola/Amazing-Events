@@ -54,7 +54,7 @@ main {
 
 .contain-card-detail {
     margin: 1rem !important;
-    width: 100% !important;
+    /* width: 100% !important; */
     
 }
 table, th, tr, td {
