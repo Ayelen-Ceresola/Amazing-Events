@@ -42,7 +42,7 @@
     </header>
 
     <main class=" flex-grow- container">
-      <section class="container-carousel position-relative">
+      <article class="container-carousel position-relative">
         <div id="carouselExample" class="carousel slide">
           <h2 class="text-white position-absolute top-50 start-50 translate-middle z-1">Home</h2>
           <div class="carousel-inner">
@@ -65,15 +65,14 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </section>
-      <section class=" vh10 d-flex justify-content-evenly align-items-center navbar navbar-expand-lg">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              Food Fair
-            </label>
-          </div>
-        <div class="form-check">
+      </article>
+      <div class=" vh10 d-flex justify-content-evenly align-items-center navbar navbar-expand-lg">
+      <form class="d-flex m-3" role="search">
+        <input class="form-control me-2" id="busqueda" type="search"  aria-label="Search">
+      </form>
+      <article class=" vh10 d-flex justify-content-evenly align-items-center navbar navbar-expand-lg gap-3" id="contenedor-checkbox">
+        <div>
+        <!-- <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
           <label class="form-check-label" for="flexCheckDefault">
             Museum
@@ -108,12 +107,10 @@
           <label class="form-check-label" for="flexCheckDefault">
             Let's go to the cinema
           </label>
+        </div> -->
         </div>
-        <form class="d-flex m-3" role="search">
-          <input class="form-control me-2" type="search"  aria-label="Search">
-          <button class="btn btn-outline-primary" type="submit">Search</button>
-        </form>
-      </section>
+      </div>  
+      </article>
       <div id="container-card" class="d-flex flex-wrap justify-content-center" > 
         <!-- <div class="card d-flex flex-column mb-3 justify-content-center align-items-center m-2" style="width: 18rem;">
           <img src="./assets/Image/Feria-de-comidas7.jpg" class="card-img-top p-2" alt="Feria">
