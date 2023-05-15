@@ -33,7 +33,7 @@
                 <a class="nav-link  active" aria-current="page" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Stat.html">Stat</a>
+                <a class="nav-link" href="./Stat.html">Stats</a>
               </li>
             </ul>
           </div>
@@ -69,18 +69,21 @@
       <article class="d-flex flex-column justify-content-center align-items-center">
       <form class="d-flex flex-column justify-content-center align-items-center border border-primary col-md-4 form-contact shadow-lg p-3 mb-5 bg-body-tertiary rounded">
         <div class="mb-3">
-            <label for="exampleInputName1" class="form-label">Name:</label>
-            <input type="text" class="form-control" id="exampleInputName1">
+          <legend>Name:</legend>
+            <label for="exampleInputName1" class="form-label"></label>
+            <input type="text" class="form-control imputform" id="exampleInputName1">
           </div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email:</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">  
+          <legend>Email:</legend>
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <input type="email" class="form-control imputform" id="exampleInputEmail1" aria-describedby="emailHelp">  
         </div>
-        <div class="form-floating">
-          <label for="exampleInputEmail1" class="form-label">Mensagge:</label>
-          <textarea class="form-control" id="card" id="floatingTextarea"></textarea>    
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <legend>Mesagge:</legend>
+          <label for="exampleInputEmail1" class="form-label"></label>
+          <textarea class="form-control" id="floatingTextarea"></textarea>    
         </div>
-        <button type="submit" class="btn btn-primary m-2">Submit</button>
+        <button type="submit" class="btn btn-primary m-3">Submit</button>
       </form>
     </article>
     </main>

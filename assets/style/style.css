@@ -70,3 +70,16 @@ th {
     padding: 1rem;
     
 }
+textarea {
+    width: 20rem !important;
+    height: 8rem !important;
+    resize: none;
+
+}
+legend {
+    text-align: center;
+}
+.imputform {
+    width: 20rem !important;
+
+}

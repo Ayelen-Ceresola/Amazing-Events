@@ -19,8 +19,8 @@ containerDetail.innerHTML = `<div class="card mb-3" style="max-width: 540px;">
                 <li class="list">Description: ${busquedaId.description}</li>
                 <li class="list">Category: ${busquedaId.category}</li>
                 <li class="list">Place: ${busquedaId.place}</li>
-                <li class="list">Capacity: ${busquedaId.capacity}</li>
-                <li class="list">${busquedaId.assistance ? "Assistance" : "Estimate"}: ${busquedaId.assistance ? busquedaId.assistance :busquedaId.estimate}</li>
+                <li class="list">Capacity: ${busquedaId.capacity}</li><li class="list">${busquedaId.assistance ? "Assistance" : "Estimate"}: ${busquedaId.assistance ? busquedaId.assistance :busquedaId.estimate}</li>
+                
                 <li class="list">Price: $${busquedaId.price}</li>
             </ul>
         </div>

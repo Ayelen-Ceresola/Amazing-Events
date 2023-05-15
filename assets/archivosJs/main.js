@@ -48,7 +48,7 @@ const funcionReduce = (acumulador,elementoActual, indice, array) =>{
 const templateCategory = arrayCategory.reduce (funcionReduce , ``)
 containerCheckbox.innerHTML = templateCategory
 
-//creacion card
+//creacion template card
 function crearTemplateEventos (lista){
     return lista.reduce ((acumulado, elementoA ) => {
         return acumulado +=  `<div class="card d-flex flex-column mb-3 justify-content-center align-items-center m-2" style="width: 18rem;">
