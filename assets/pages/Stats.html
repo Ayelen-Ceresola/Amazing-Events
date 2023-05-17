@@ -66,88 +66,66 @@
           </button>
         </div>
       </section>
-      <div class=" table d-flex justify-content-center col-md-5 table-expand-lg ">
+      <div id="container-table" class=" table d-flex flex-column justify-content-center col-md-5 table-expand-lg ">
         <table class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <thead>
             <tr>
-              <th colspan="3" class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary text-center">Events statics</th>
+              <th colspan="3" class=" p-3 mb-2 bg-secondary-subtle text-emphasis-secondary text-center">Events statics</th>
             </tr>
-          </thead>
-          <tbody>
             <tr>
               <td class=" p-2" >Events whit the highest percentage off attendance</td>
               <td class=" p-2">Events whit the lowest percentage off attendance</td>
               <td class=" p-2">Events whit larger capacity</td>
             </tr>
-            <tr>
+          </thead>
+          <tbody id="primerTabla">
+            <!-- <tr>
               <td>-</td>
               <td>-</td>
               <td>-</td>
-            </tr>
+            </tr> -->
           </tbody>
+        </table>
+        <table class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <thead>
             <tr>
-              <th colspan="3" class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary text-center">Upcoming events statics by category</th>
+              <th colspan="3" class=" p-3 mb-2 bg-secondary-subtle text-emphasis-secondary text-center">Upcoming events statics by category</th>
             </tr>
-          </thead>
-          <tbody>
             <tr>
-              <td class=" p-2">Categories</td>
+              <td class=" p-2" >Categories</td>
               <td class=" p-2">Revenues</td>
               <td class=" p-2">Percentage of attendance</td>
             </tr>
-            <tr>
+          </thead>
+          <tbody id="segundaTabla">
+            <!-- <tr>
               <td>-</td>
               <td>-</td>
               <td>-</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
+            </tr> -->
           </tbody>
+        </table>
+        <table class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <thead>
             <tr>
-              <th colspan="3" class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary text-center">Past Events statistics by category</th>
+              <th colspan="3" class=" p-3 mb-2 bg-secondary-subtle text-emphasis-secondary text-center">Past Events statistics by category</th>
             </tr>
-          </thead>
-          <tbody>
             <tr>
-              <td class=" p-2">Categories</td>
+              <td class=" p-2" >Categories</td>
               <td class=" p-2">Revenues</td>
               <td class=" p-2">Percentage of attendance</td>
             </tr>
-            <tr>
+          </thead>
+          <tbody id="terceraTabla">
+            <!-- <tr>
               <td>-</td>
               <td>-</td>
               <td>-</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <td>-</td>
-              <td>-</td>
-              <td>-</td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
       </div>
     </main>
-    
     <footer class="vh10 bg-body-tertiary  container">
       <section class="d-flex justify-content-evenly align-items-center">   
         <div class="d-flex justify-content-evenly align-items-center navbar navbar-expand-lg m-3 " style="width: 300px;">
@@ -161,5 +139,6 @@
 </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="../archivosJs/stats.js"></script>
 </body>
 </html>
